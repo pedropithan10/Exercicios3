@@ -5,10 +5,10 @@ const jogar = function(){
     do{
         chute = prompt('Qual número foi gerado?')
         if(chute > nRandom){
-            alert('boa mlk')
+            alert('Acertou, parabéns')
         }
         else{
-            alert('errouu')
+            alert('tente novamente')
         }
 
     }while(chute != nRandom)
